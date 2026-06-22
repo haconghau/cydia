@@ -1,0 +1,55 @@
+Package: vn.iossp.appsync31
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iOSSupport <iossp@hotmail.com>
+Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
+Depends: vn.iossp.iconrepo
+Filename: ./debs/vn.iossp.appsync31_1.0.1_iphoneos-arm.deb
+Size: 296524
+MD5sum: 1b589191edb5981e650a911576635387
+SHA1: 61eef1521ec06657183ec03c73687476bc575ace
+SHA256: 5b3341d00b3d2eb496e2192b904003226d026069546d12aede57c4805b4ddbf7
+Section: Tweak
+Description: AppSync patches the installd file on your device iOS 3.1 - 3.1.4
+Author: Reilly <appsync@hackulo.us>
+Name: AppSync for OS 3.1
+
+Package: vn.iossp.appsync40plus
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: iOSSupport <iossp@hotmail.com>
+Depends: firmware (>= 4.0), firmware (<< 5.0), vn.iossp.iconrepo
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Filename: ./debs/vn.iossp.appsync40plus_1.2.2_iphoneos-arm.deb
+Size: 9284
+MD5sum: ec04151a6c9c4c1587f57c2467b49d83
+SHA1: db8bc0daeaae401277341932a96787d064a88503
+SHA256: e5e4b67f9499d53376b29e64b10d2af77947f0cd5468360c627cacac803a430b
+Section: Tweak
+Homepage: https://cydia.angelxwind.net/
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Author: Karen/あけみ, Dissident <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
+
+Package: vn.iossp.appsyncunified
+Version: 110.0
+Architecture: iphoneos-arm
+Maintainer: iOSSupport <iossp@hotmail.com
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1), vn.iossp.iconrepo
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/vn.iossp.appsyncunified_110.0_iphoneos-arm.deb
+Size: 87186
+MD5sum: 7dbb704d323c12aef2552edfefc796a8
+SHA1: 92e646047c458caa7a83f121c21537919dc0911f
+SHA256: 2e7ec2e907bb5d2b823e15261bec4871fbc77999b05c82d7ab4b20c3c38899ab
+Section: Tweak
+Description: iOS 5 - 16.3.1.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
