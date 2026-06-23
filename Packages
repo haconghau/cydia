@@ -1,3 +1,56 @@
+Package: Tomkids.AvatarOfWar
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Unknown
+Filename: ./debs/Tomkids.AvatarOfWar_1.0_iphoneos-arm.deb
+Size: 9128096
+MD5sum: e2cdd32af9316fd40df186e25d391204
+SHA1: 1600e130d5384027354ad38c15ef61dcfc5fb51b
+SHA256: 333a8165b6269bea12ee2a2dd0b4ad682cf169e8197a0119fed661a23607f015
+Section: Applications
+Description: Game Avatar Of War 1.0 for low IOS
+ Let's go
+Author: AvatarOfWar_1.0
+Name: AvatarOfWar_1.0
+
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: aoi_satou
+Depends: firmware (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: ./debs/com.aoi.storefix_1.0-6_iphoneos-arm.deb
+Size: 824
+MD5sum: 31a7ebed34fe695cc5c12a6ac4f7b8d3
+SHA1: f5d95b6d99a826a3fa34128db4172418abfbc5c2
+SHA256: 5424cad7dbca03c887ef6ec0590975f001393c860814ce148d8cdb3bfc908e2e
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Depiction: http://aoiblog.jp/appstorefix_history.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.arichardson.weepreferenceloader
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.arichardson.weepreferenceloader_1.1_iphoneos-arm.deb
+Size: 34562
+MD5sum: 1deaeb81dd1dcd9fe7f9521fa8be6524
+SHA1: 10b0ecae5a95031c1f7485e6e735ba64779fcf79
+SHA256: 4971aec5462de7fba3593fb18bf6091d9c40ef59e48d57725eedea95bb71cb7d
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/weepreferenceloader.php
+Description: A framework to easily add preferences to the Notifications settings.
+Author: Andrew Richardson <andrewr114@gmail.com>
+Depiction: http://modmyi.com/info/weepreferenceloader.d.php
+Name: WeePreferenceLoader
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
 Package: com.jamied360.ncsettings
 Version: 1.7.1
 Architecture: iphoneos-arm
@@ -15,6 +68,72 @@ Description: NCSettings is a sleek Notification Center toggle widget
 Author: JamieD360 <jamied360support@live.co.uk>
 Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6001
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Size: 20774
+MD5sum: 8ef36f325fbb3649bcb5845fb3223df0
+SHA1: c845a0a58777bf54a5a71b90acf71ab166072c23
+SHA256: 6c6640839efa2c31ef2cb48a00bb4b83da9c29434fc8745e37710d0bf704abc2
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
+
+Package: com.tomkids.flappybird
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Unknown
+Filename: ./debs/com.tomkids.flappybird_1.2_iphoneos-arm.deb
+Size: 1302176
+MD5sum: f10001d43c4f0c2d50172be416bbcd53
+SHA1: 73bb9c6793355fd47b879d690e09c8a6b6afbb95
+SHA256: 131df9258bef90ef0495fd1ed7098caa35d1ae14ad508a28fc521491b66e958c
+Section: Applications
+Description: Converted from IPA
+Author: Unknown
+Name: FlappyBird1.2
+
+Package: com.tomkids.pacman
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: Unknown
+Filename: ./debs/com.tomkids.pacman_1.0.5_iphoneos-arm.deb
+Size: 1631408
+MD5sum: d4fd784534ed5284a3b98b735879cc05
+SHA1: 8b9bcdeef1a8b04683b51aba550090266ea783df
+SHA256: 52535035f8fef9364c27067f0d1399ffb53e4894029c5ede7a1469d2e9ae0064
+Section: Applications
+Description: Converted from IPA
+Author: Unknown
+Name: Pac-Man
+
+Package: com.void.themeready
+Version: 0.9.1-59
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Filename: ./debs/com.void.themeready_0.9.1-59_iphoneos-arm.deb
+Size: 60372
+MD5sum: 29d0af0bd7a13f458b4e31ab5b5423eb
+SHA1: f6ca8fd64944913986843d6885bb6b67e340b8d7
+SHA256: 467b2dddb83b1854d68ee76fbe97764c80335fca9e29cd0b7cf1c92a57c1a96b
+Section: System
+Priority: extra
+Homepage: http://modmyi.com/info/themeready.php
+Description: ThemeReady gives you access to quick tools from your Settings menu.
+Author: Milika <codylindsaygordon@gmail.com>
+Depiction: http://modmyi.com/info/themeready.d.php
+Name: ThemeReady
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.vsz.redeb
@@ -233,6 +352,24 @@ Depiction: http://cydia.vn/depic/t3946/
 Name: FullForce for Phone
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
+Package: vn.gsm.ifile
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 20224
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/tomkids.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9735294
+MD5sum: 8abe90e41a0a559f5548d5e289dad9ef
+SHA1: 45fd4857346fb52b82990733f4452e1c2846944d
+SHA256: b51c9d06f1e28fa93e94652dbbcc6320053f169cad9a9b9c04f08e0076c67bf0
+Section: !CydiaVn-Apps
+Homepage: http://cydia.vn/
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system.
+Author: Carsten Heinelt <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t48/
+Name: iFile
+
 Package: vn.gsm.speedintensifier
 Version: 5.0.3
 Architecture: iphoneos-arm
@@ -271,6 +408,71 @@ Author: Philip Wong <support@gsm.vn>
 Depiction: http://cydia.gsm.vn/t1316/
 Name: Speed Intensifier Addon
 Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+
+Package: vn.gsm.springtomize2
+Version: 1.4.3-1
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 561
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, vn.gsm.springtomize2-icons, vn.gsm.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize, vn.gsm.springtomize
+Filename: ./debs/vn.gsm.springtomize2_1.4.3-1_iphoneos-arm.deb
+Size: 207366
+MD5sum: 33be3302f6aeab7dfb38f6d99b21d39c
+SHA1: e7e24e019724ab88484046cb3b815394f8fb01f5
+SHA256: 5dc461c0670d43741653ac2fa74a0e9b9576dc23d90973ddebef339b862d0130
+Section: !GSMVN-Tools
+Homepage: http://cydia.vn/
+Description: SpringBoard, the way you want it. All over again.
+Author: FilippoBiga
+Depiction: http://cydia.gsm.vn/t2197/
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize 2 - iOS 5 & 6
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
+Package: vn.gsm.springtomize2-icons
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 88
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: ./debs/vn.gsm.springtomize2-icons_1.0-1_iphoneos-arm.deb
+Size: 68014
+MD5sum: f0101acd9d219a3c34b989d9a4d42359
+SHA1: 0db8019f94c6a105fe06dc6c95301db5206c3ff2
+SHA256: d17d095ddc82613dbc5cc8b798a4d535d34db610e1f2498bec2a2ca05b0c46fb
+Section: Addons
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Settings Icons for Springtomize2
+Tag: role::developer
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://cydia.gsm.vn/t2197/
+Dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize2-Icons
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: vn.gsm.springtomize2-localizations
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 215
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: ./debs/vn.gsm.springtomize2-localizations_1.0.1_iphoneos-arm.deb
+Size: 56850
+MD5sum: bcb21a1171c69d13848f2e63dc9f6071
+SHA1: e9368832d85e3cac88f497b42b13c93670ff8641
+SHA256: 13532adcfb054b1e5cc6b3e0600853e25e6fea28714586154473bd2b9997eb00
+Section: Addons
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Localizations for Springtomize2
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://cydia.gsm.vn/t2197/
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize2-Localizations
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: vn.gsm.zephyr
 Version: 1.6.4-1
@@ -426,4 +628,20 @@ Section: Tweak
 Description: Background playing for YouTube app on iOS 5 - 9.
 Author: iOSSupportVN
 Name: YTLegacyBG
+
+Package: vn.tomkids.tweaks.popuphellosetting
+Version: 2.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: TomKids
+Installed-Size: 256
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/vn.tomkids.tweaks.popuphellosetting_2.0.2-1+debug_iphoneos-arm.deb
+Size: 8748
+MD5sum: 213348fd957730b472e7048862cac3f5
+SHA1: 774f1c7e61c6035741c4eb20a028bd8d5370790a
+SHA256: d7540b0eb3ebf2d687fcb4291e7cd17af285e6818a7a11f8a31bbda1d53626d5
+Section: Tweaks
+Description: Show a customizable popup inside Settings on iOS 5 to 8.
+Author: TomKids
+Name: PopUp Hello Setting
 
